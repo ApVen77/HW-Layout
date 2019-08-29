@@ -1,0 +1,38 @@
+* {box-sizing: border-box;
+    text-align: center; 
+} 
+.clearfix::after{
+    clear: both; 
+    content: ""; 
+    display: block; 
+}
+.container {margin: auto;
+}
+body {
+    background: #777777;
+    color: purple; 
+    width: 960px;
+    line-height: 35px; 
+    margin: auto;
+}
+header { background: #ebebee;
+    color: purple; 
+    width: 100%; 
+
+}
+.nav {
+    background: #ebebeb; 
+    color: purple;
+    width: 100%;
+}
+
+
+    h1, h2, h3 {background: #777777;
+
+}
+article {background: #777777;}
+section {background: #777777;
+float: left;}
+aside {background: #777777;
+float:left;}
+footer {background: #777777
